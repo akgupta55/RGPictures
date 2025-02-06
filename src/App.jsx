@@ -3,6 +3,7 @@ import Hero from "./views/Hero";
 import Services from "./views/Services";
 import Contact from "./views/Contact";
 import WhyChooseMe from "./views/WhyChooseMe";
+import FloatingContactButtons from "./views/FloatingContactButtons";
 
 export default function App() {
   return (
@@ -12,6 +13,7 @@ export default function App() {
       <WhyChooseMe />
       <Services />
       <Contact />
+      <FloatingContactButtons />
     </div>
   );
 }
