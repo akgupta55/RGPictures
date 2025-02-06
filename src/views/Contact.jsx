@@ -6,13 +6,13 @@ export default function Contact() {
       <h2 className="text-3xl font-semibold text-center mb-6">Get in Touch</h2>
       <div className="flex flex-col md:flex-row justify-center gap-6 text-center">
         <div className="flex items-center gap-3">
-          <FaPhone /> +91 974 259 3010
+          <FaPhone /> +91 6307155865
         </div>
         <div className="flex items-center gap-3">
-          <FaEnvelope /> info@chitrageek.com
+          <FaEnvelope /> rg190559@gmail.com
         </div>
         <div className="flex items-center gap-3">
-          <FaMapMarkerAlt /> Varanasi, Lucknow, Guwahati
+          <FaMapMarkerAlt /> Varanasi, UP
         </div>
       </div>
     </section>
