@@ -30,12 +30,12 @@ export default function Navbar() {
         } md:block transition-all duration-300`}
       >
         <li className="p-4 md:p-0">
-          <a href="#" className="hover:text-blue-500 block">
+          <a href="#" className="hover:text-500 block">
             Home
           </a>
         </li>
         <li className="p-4 md:p-0">
-          <a href="#about" className="hover:text-blue-500 block">
+          <a href="#about" className="hover:text-500 block">
             About
           </a>
         </li>
@@ -46,8 +46,8 @@ export default function Navbar() {
           onMouseEnter={() => setDropdownOpen(true)}
           onMouseLeave={() => setDropdownOpen(false)}
         >
-          <button className="hover:text-blue-500 flex items-center gap-1 md:w-auto">
-            Services{" "}
+          <button className="text-gray-500 hover:text-black flex items-center gap-1 md:w-auto">
+            Services
             {dropdownOpen ? (
               <MdKeyboardArrowUp className="text-xl" />
             ) : (
@@ -57,14 +57,14 @@ export default function Navbar() {
 
           {/* Dropdown Menu (Always Visible on Mobile, Hover on Desktop) */}
           <ul
-            className={`md:absolute left-0 w-full md:mt-5 md:w-48 bg-white transition-all duration-300 md:opacity-0 md:invisible group-hover:opacity-100 group-hover:visible md:block ${
+            className={`md:absolute left-0 w-full bg-white md:mt-5 md:w-48 transition-all duration-300 md:opacity-0 md:invisible group-hover:opacity-100 group-hover:visible md:block ${
               menuOpen ? "block" : "hidden"
             }`}
           >
             <li>
               <a
                 href="#baby-photography"
-                className="block px-4 py-2 hover:bg-gray-100"
+                className="block px-4 py-2 hover:text-500"
               >
                 Baby Photography
               </a>
@@ -72,7 +72,7 @@ export default function Navbar() {
             <li>
               <a
                 href="#maternity-photography"
-                className="block px-4 py-2 hover:bg-gray-100"
+                className="block px-4 py-2 hover:text-500"
               >
                 Maternity Photography
               </a>
@@ -80,7 +80,7 @@ export default function Navbar() {
             <li>
               <a
                 href="#pre-wedding-photography"
-                className="block px-4 py-2 hover:bg-gray-100"
+                className="block px-4 py-2 hover:text-500"
               >
                 Pre Wedding Photography
               </a>
@@ -88,7 +88,7 @@ export default function Navbar() {
             <li>
               <a
                 href="#event-photography"
-                className="block px-4 py-2 hover:bg-gray-100"
+                className="block px-4 py-2 hover:text-500"
               >
                 Event Photography
               </a>
@@ -96,7 +96,7 @@ export default function Navbar() {
             <li>
               <a
                 href="#product-photography"
-                className="block px-4 py-2 hover:bg-gray-100"
+                className="block px-4 py-2 hover:text-500"
               >
                 Product Photography
               </a>
@@ -105,7 +105,7 @@ export default function Navbar() {
         </li>
 
         <li className="p-4 md:p-0">
-          <a href="#contact" className="hover:text-blue-500 block">
+          <a href="#contact" className="hover:text-500 block">
             Contact
           </a>
         </li>

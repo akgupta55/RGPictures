@@ -1,6 +1,5 @@
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Pagination, Autoplay, EffectCube } from "swiper/modules";
-import { motion } from "framer-motion";
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
@@ -33,17 +32,6 @@ export default function Hero() {
               alt={`Hero ${index + 1}`}
               className="h-96 w-full object-fit"
             />
-            {/* <div className="absolute inset-0 bg-opacity-50 flex items-center justify-center">
-              <motion.h1
-                initial={{ opacity: 0, y: 20 }}
-                animate={{ opacity: 1, y: 0 }}
-                exit={{ opacity: 0 }}
-                transition={{ duration: 1 }}
-                className="text-white text-4xl font-bold text-center"
-              >
-                {slide.text}
-              </motion.h1>
-            </div> */}
           </SwiperSlide>
         ))}
       </Swiper>

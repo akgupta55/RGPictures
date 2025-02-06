@@ -1,1 +1,24 @@
 @import "tailwindcss";
+body {
+  font-family: "Lato", sans-serif; /* Default body font */
+  color: #333333; /* Charcoal Grey for text */
+  background-color: #f9f9f9; /* Soft White background */
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Playfair Display", serif; /* Elegant headings */
+}
+
+a {
+  color: #666666; /* Slate Grey for links */
+  text-decoration: none;
+}
+
+a:hover {
+  color: #000; /* Warm Grey on hover */
+}
