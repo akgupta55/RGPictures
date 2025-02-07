@@ -7,11 +7,11 @@ import "swiper/css/effect-cube";
 
 const heroSlides = [
   {
-    image: "/hero1.jpg",
+    image: "/hero1.JPG",
     text: "Capture Your Precious Moments with ChitraGeek",
   },
-  { image: "/hero2.gif", text: "Turning Your Memories into Timeless Art" },
-  { image: "/hero3.png", text: "Every Picture Tells a Beautiful Story" },
+  { image: "/hero2.JPG", text: "Turning Your Memories into Timeless Art" },
+  { image: "/hero3.jpg", text: "Every Picture Tells a Beautiful Story" },
 ];
 
 export default function Hero() {
@@ -30,7 +30,7 @@ export default function Hero() {
             <img
               src={slide.image}
               alt={`Hero ${index + 1}`}
-              className="h-96 w-full object-fit"
+              className="h-96 w-full object-fit-cover"
             />
           </SwiperSlide>
         ))}
