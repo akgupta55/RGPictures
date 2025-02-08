@@ -30,7 +30,7 @@ export default function Hero() {
             <img
               src={slide.image}
               alt={`Hero ${index + 1}`}
-              className="h-96 w-full object-fit-cover"
+              className="h-96 w-full object-fit-"
             />
           </SwiperSlide>
         ))}

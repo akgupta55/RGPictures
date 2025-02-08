@@ -4,6 +4,7 @@ import Services from "./views/Services";
 import Contact from "./views/Contact";
 import WhyChooseMe from "./views/WhyChooseMe";
 import FloatingContactButtons from "./views/FloatingContactButtons";
+import PhotographyPortfolio from "./views/PhotographyPortfolio";
 
 export default function App() {
   return (
@@ -11,6 +12,7 @@ export default function App() {
       <Navbar />
       <Hero />
       <WhyChooseMe />
+      <PhotographyPortfolio />
       <Services />
       <Contact />
       <FloatingContactButtons />
